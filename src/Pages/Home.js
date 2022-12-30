@@ -8,6 +8,9 @@ function Home(props) {
   return (
     <div className="homeParentDiv">
       <Header />
+        <div>
+            <img style={{width: "100%"}} src="../assets/image.jpg" alt=""/>
+        </div>
       <Footer />
     </div>
   );
