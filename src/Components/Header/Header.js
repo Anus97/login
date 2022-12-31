@@ -17,7 +17,7 @@ function Header() {
         </div>
         <div className="language">
           <span> SignUp </span>
-          
+          <hr />
         </div>
 
         <div className="aboutMenu">
