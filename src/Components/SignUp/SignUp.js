@@ -1,4 +1,4 @@
-import React, { useState, useContext } from 'react';
+import React, { useState } from 'react';
 import './SignUp.css';
 
 export default function SignUp() {
@@ -13,6 +13,7 @@ export default function SignUp() {
   }
   return (
     <div className="signupParentDiv">
+       <h2>Register</h2>
         <form onSubmit={submit}>
           <label htmlFor="fname">Username</label>
           <br />
