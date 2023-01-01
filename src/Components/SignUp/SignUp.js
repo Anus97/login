@@ -1,5 +1,4 @@
 import React, { useState, useContext } from 'react';
-import { FirebaseContext } from '../../stores/FirebaseContext';
 import './SignUp.css';
 
 export default function SignUp() {
@@ -7,11 +6,10 @@ export default function SignUp() {
   const [email, setEmail] = useState('');
   const [phone, setPhone] = useState('');
   const [password, setUPassword] = useState('');
-  const {firebase} = useContext(FirebaseContext)
 
   const submit = (e)=>{
     e.preventDefault()
-    console.log(firebase);
+    console.log(username);
   }
   return (
     <div className="signupParentDiv">
