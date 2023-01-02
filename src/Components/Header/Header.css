@@ -52,7 +52,9 @@
     height: 100%;
     display: flex;
   }
-  
+  .search{
+    margin-left: 338px;
+  }
   .productSearch .input input {
     border-color: transparent;
     outline-color: transparent;
