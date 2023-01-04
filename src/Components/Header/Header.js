@@ -16,7 +16,8 @@ function Header() {
           </div>
         </div>
         <div className="language">
-          <span> SignUp </span>
+        <i className='fa fa-sign-in'></i>
+          <span>   SignUp </span>
           <hr />
         </div>
 
@@ -29,6 +30,7 @@ function Header() {
         </div>
 
         <div className="loginPage">
+        <i className='fa fa-user-circle'></i>
           <span>Login</span>
           <hr />
         </div>
