@@ -8,8 +8,8 @@ export default props => {
       <a className="menu-item" href="/">
         Home
       </a>
-      <a className="menu-item" href="/universities">
-        Universities
+      <a className="menu-item" href="/university">
+        University
       </a>
       <a className="menu-item" href="/admissions">
         Admissions

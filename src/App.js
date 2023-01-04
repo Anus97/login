@@ -5,6 +5,7 @@ import './App.css';
 import { Login } from './Components/Login/Login';
 import SignUp from './Components/SignUp/SignUp';
 import Home from './Pages/Home';
+import Postes from './Components/Postes';
 function App() {
   return (
     <div id="outer-container">
@@ -14,6 +15,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/signup" element={<SignUp />}/>
           <Route path="/login" element={<Login />}/>
+          <Route path="/university" element={<Postes />}/>
         </Routes>
       </BrowserRouter>
     </div>
